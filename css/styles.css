@@ -1,150 +1,64 @@
-/* Загальні стилі */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Застосування стилів до body */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Хедер */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    background-color: #fff;
-}
-
-.logo a {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+  }
+  
+  /* Стилі для заголовків */
+  h1 {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    color: #333;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.nav-list {
-    display: flex;
-    list-style: none;
-}
-
-.nav-list li {
-    margin-left: 20px;
-}
-
-.nav-list a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.contact-info a {
-    margin-left: 20px;
-    color: #555;
-    text-decoration: none;
-}
-
-.contact-info a:hover,
-.contact-info a:focus {
-    color: #000;
-}
-
-/* Секція Hero */
-.hero {
-    background-color: #2a2a72;
-    color: #fff;
+  }
+  
+  /* Основний фон та стилі для hero секції */
+  .hero {
+    background-color: #2a2a2a;
+    color: #ffffff;
     text-align: center;
-    padding: 100px 0;
-}
-
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero .btn {
+    padding: 50px;
+  }
+  
+  .order-button {
+    background-color: #4e89f8;
+    color: #ffffff;
+    border: none;
     padding: 10px 20px;
-    background-color: #3b82f6;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 5px;
     cursor: pointer;
-}
-
-/* Секція Features */
-.features {
+  }
+  
+  /* Секція особливостей */
+  .features {
     display: flex;
-    justify-content: space-between;
-    padding: 50px 0;
-}
-
-.feature {
-    width: 23%;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .features h3 {
+    font-weight: 700;
+  }
+  
+  .features p {
+    font-weight: 400;
+  }
+  
+  /* Секція "Наша команда" */
+  .team {
     text-align: center;
-}
-
-.feature h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.feature p {
-    color: #666;
-    font-size: 14px;
-}
-
-/* Секція Team */
-.team {
-    background-color: #f4f4f4;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.team h2 {
-    font-size: 28px;
-    margin-bottom: 30px;
-}
-
-.team-list {
+    padding: 20px;
+  }
+  
+  .team ul {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.team-list li {
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  .team li {
     text-align: center;
-}
-
-.team-list img {
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-.team-list h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.team-list p {
-    color: #666;
-}
-
-/* Футер */
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    color: #fff;
-}
+  }
+  
+  .team img {
+    width: 264px;
+  }
+  
