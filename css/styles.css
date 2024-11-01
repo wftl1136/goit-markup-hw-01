@@ -1,64 +1,65 @@
-/* Застосування стилів до body */
+/* Подключение шрифтов и сброс стилей */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css');
+
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-  }
-  
-  /* Стилі для заголовків */
-  h1 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-  }
-  
-  /* Основний фон та стилі для hero секції */
-  .hero {
-    background-color: #2a2a2a;
-    color: #ffffff;
-    text-align: center;
-    padding: 50px;
-  }
-  
-  .order-button {
-    background-color: #4e89f8;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  /* Секція особливостей */
-  .features {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  
-  .features h3 {
-    font-weight: 700;
-  }
-  
-  .features p {
-    font-weight: 400;
-  }
-  
-  /* Секція "Наша команда" */
-  .team {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .team ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-  }
-  
-  .team li {
-    text-align: center;
-  }
-  
-  .team img {
-    width: 264px;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+/* Стили для логотипа */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+/* Стили для навигации */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* Стили для контактной информации */
+.contact-info {
+  font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
